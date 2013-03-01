@@ -1,0 +1,6 @@
+(:name helm-rcodetools
+       :type http
+       :url "http://www.emacswiki.org/cgi-bin/wiki/download/anything-rcodetools.el"
+       :build ("mv anything-rcodetools.el helm-rcodetools.el"
+	       "sed -i s/anything/helm/g helm-rcodetools.el")
+       :features helm-rcodetools)
