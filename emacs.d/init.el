@@ -1,3 +1,9 @@
+;; http://d.hatena.ne.jp/syohex/20111117/1321503477
+;; load environment value
+(load-file (expand-file-name "~/.emacs.d/shellenv.el"))
+(dolist (path (reverse (split-string (getenv "PATH") ":")))
+  (add-to-list 'exec-path path))
+
 ;; http://d.hatena.ne.jp/tomoya/20090807/1249601308
 ;; system-type predicates
 (setq darwin-p  (eq system-type 'darwin)
@@ -14,9 +20,21 @@
     ((user-emacs-directory
       (substring (or load-file-name "~/.emacs.d/init.el") 0 -7))
      (conf-list (list
-		 "init.el"
 		 "theme.el"
+		 "init.el"
                  "el-get.el"
+		 "midnight.el"
+		 ;; Major mode
+		 "csharp-mode.el"
+		 "d-mode.el"
+		 "haskell-mode.el"
+		 "js2-mode.el"
+		 "markdown-mode.el"
+		 "org-mode.el"
+		 "python-mode.el"
+		 "ruby-mode.el"
+		 "twittering-mode.el"
+		 "typescript-mode.el"
                  )))
   (progn
     (dolist (conf conf-list)
