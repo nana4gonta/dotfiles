@@ -51,11 +51,11 @@
 	       (dolist (conf gentoo)
 		 (load (concat user-emacs-directory "conf/" conf))))))
  
-    ;; (and (equal window-system 'windows-nt)
-    ;;  	 (dolist (conf (list "nt-init.el"
-    ;;  			     "nt-font.el"
-    ;;  			     ))
-    ;; 	   (load (concat user-emacs-directory "conf/" conf))))
+    (and (equal system-type 'windows-nt)
+     	 (dolist (conf (list "windows-init.el"
+     			     "windows-font.el"
+     			     ))
+    	   (load (concat user-emacs-directory "conf/" conf))))
 
     ;; (and (equal system-type 'gnu/linux)
     ;; 	 (dolist (conf (list "linux-init.el"
