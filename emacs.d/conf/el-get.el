@@ -2,6 +2,7 @@
 
 (setq
  el-get-dir (concat user-emacs-directory "el-get")
+ el-get-emacswiki-base-url "http://raw.github.com/emacsmirror/emacswiki.org/master/"
  el-get-verbose t
  el-get-user-package-directory (concat user-emacs-directory "conf/init"))
 
@@ -27,34 +28,51 @@
 	  fold-dwim
 	  switch-window
 	  htmlize
-	  ac-python
+	  twittering-mode
+	  ;; C#
+	  csharp-mode
+	  ;; Coq
 	  ProofGeneral
-	  gjslint
-	  d-mode
+	  ;; Python
+	  ac-python
+	  ;; Javascript
+	  js2-mode
+	  flymake-node-jshint
+	  slime
+	  ac-slime
+	  js2-refactor
+	  setup-slime-js
+	  swank-js
+	  ;; TypeScript
 	  typescript
+	  ;; D-Lang
+	  d-mode
+	  ;; Ruby
 	  ruby-mode
 	  ;; rdoc-mode
 	  inf-ruby
 	  ruby-block
 	  ruby-electric
-	  ;; ruby-style
+	  ruby-style
 	  ;; rubydb2x
 	  ;; rubydb3x
 	  ;; smart-compile
 	  rcodetools
 	  helm-rcodetools
 	  auto-complete-ruby
+	  ;; Haskell
 	  haskell-mode
-	  ;; haskell-c
-	  ;; hashkell-cabal
-	  ;; haskell-decl-scan
-	  ;; haskell-doc
-	  ;; haskell-font-lock
-	  ;; haskell-ghc
-	  ;; haskell-indent
-	  ;; haskell-indentation
-	  ;; haskell-simple-indent
-	  ;; haskell-site-file
-	  ;; inf-haskell
+	  ghc-mod
+	  ;; Scala
+	  ;; scala-mode
+	  ;; Markdown
+	  markdown-mode
+	  ;; Ocaml
+	  ;; ocaml-mode
+	  ;; Erlang
+	  ;; erlang
 	  ;; yatex
+	  ;; Sass, SCSS
+	  sass-mode
+	  scss-mode
 	  ))
