@@ -1,0 +1,4 @@
+(:name jade-mode
+       :type git
+       :url "https://github.com/brianc/jade-mode"
+       :features sws-mode jade-mode)
