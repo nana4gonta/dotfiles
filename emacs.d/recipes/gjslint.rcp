@@ -1,4 +1,0 @@
-(:name gjslint
-       :type http
-       :url "https://gist.github.com/valeryz/561978/raw/f7c1957948c5b2bc1323c53a44d4d56f4e99ce81/gjslint.el"
-       :features gjslint)
