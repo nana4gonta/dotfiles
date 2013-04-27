@@ -1,0 +1,11 @@
+(:name swank-js
+       :type git
+       :url "https://github.com/swank-js/swank-js"
+       :load-path "."
+       :prepare (progn
+		  (global-set-key [f5] 'slime-js-reload)
+		  (add-hook 'js2-mode-hook
+			    (progn
+			      (require 'slime-js)
+			      (slime-js-minor-mode 1))))
+)

@@ -1,0 +1,5 @@
+(:name setup-slime-js
+       :type http
+       :url "https://raw.github.com/magnars/.emacs.d/master/setup-slime-js.el"
+       :feature setup-slime-js
+)
