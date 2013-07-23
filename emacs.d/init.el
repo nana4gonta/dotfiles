@@ -23,7 +23,9 @@
 		 "theme.el"
 		 "init.el"
                  "el-get.el"
+		 "migemo.el"
 		 "midnight.el"
+		 "eshell.el"
 		 ;; Major mode
 		 "csharp-mode.el"
 		 "d-mode.el"
@@ -33,6 +35,8 @@
 		 "org-mode.el"
 		 "python-mode.el"
 		 "ruby-mode.el"
+		 "php-mode.el"
+		 "web-mode.el"
 		 "twittering-mode.el"
 		 "typescript-mode.el"
                  )))

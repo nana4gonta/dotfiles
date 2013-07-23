@@ -21,12 +21,16 @@
 	  popwin
 	  yasnippet
 	  helm
+	  helm-descbinds
+	  helm-migemo
+	  migemo
 	  auto-complete
 	  foreign-regexp
 	  direx
 	  multi-term
 	  fold-dwim
 	  switch-window
+	  esh-myparser
 	  htmlize
 	  twittering-mode
 	  ;; C#
@@ -75,4 +79,8 @@
 	  ;; Sass, SCSS
 	  sass-mode
 	  scss-mode
+	  ;; PHP
+	  php-mode-improved
+	  ;; Web-mode
+	  web-mode
 	  ))
