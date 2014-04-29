@@ -1,0 +1,6 @@
+(:name php-completion
+       :type github
+       :pkgname "suzuki/php-completion"
+;;       :build (("git" "checkout" "feature/helm-version"))
+       :features php-completion)
+

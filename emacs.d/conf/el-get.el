@@ -83,7 +83,8 @@
 	  sass-mode
 	  scss-mode
 	  ;; PHP
-	  php-mode-improved
+	  php-mode
+	  php-completion
 	  ;; Web-mode
 	  web-mode
 	  ))
