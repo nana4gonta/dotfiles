@@ -20,9 +20,9 @@
     ((user-emacs-directory
       (substring (or load-file-name "~/.emacs.d/init.el") 0 -7))
      (conf-list (list
-		 "theme.el"
-		 "init.el"
                  "el-get.el"
+		 "init.el"
+		 "theme.el"
 		 "migemo.el"
 		 "midnight.el"
 		 "eshell.el"
