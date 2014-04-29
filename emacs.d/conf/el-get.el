@@ -16,7 +16,7 @@
 (add-to-list 'el-get-recipe-path (concat user-emacs-directory "recipes"))
 (el-get 'sync
 	'(el-get
-	  color-theme-solarized	  
+	  solarized-theme	  
 	  powerline
 	  popwin
 	  yasnippet
