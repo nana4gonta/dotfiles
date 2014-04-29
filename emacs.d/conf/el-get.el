@@ -29,7 +29,7 @@
 	  direx
 	  multi-term
 	  fold-dwim
-	  switch-window
+	  popup-select-window
 	  esh-myparser
 	  org-mode
 	  htmlize
