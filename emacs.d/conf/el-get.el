@@ -48,7 +48,7 @@
 	  setup-slime-js
 	  swank-js
 	  ;; TypeScript
-	  typescript
+	  tss
 	  ;; D-Lang
 	  d-mode
 	  ;; Ruby
