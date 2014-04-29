@@ -32,6 +32,7 @@
 	  switch-window
 	  esh-myparser
 	  htmlize
+	  flymake-easy
 	  twittering-mode
 	  ;; C#
 	  csharp-mode
@@ -41,6 +42,7 @@
 	  ac-python
 	  ;; Javascript
 	  js2-mode
+	  flymake-jshint
 	  js2-refactor
 	  ;; TypeScript
 	  tss

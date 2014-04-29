@@ -1,0 +1,9 @@
+(:name flymake-jshint
+       :type git
+       :url "https://github.com/Wilfred/flymake-jshint.el"
+       :features flymake-jshint
+       :prepare (progn
+		  (add-hook 'js-mode-hook 'flymake-mode)
+		  (add-hook 'js2-mode-hook 'flymake-mode))
+)
+
