@@ -49,6 +49,9 @@
 	  swank-js
 	  ;; TypeScript
 	  tss
+	  ;; JSON
+	  json-reformat
+	  json-mode
 	  ;; D-Lang
 	  d-mode
 	  ;; Ruby
