@@ -31,6 +31,7 @@
 	  fold-dwim
 	  popup-select-window
 	  esh-myparser
+	  htmlize
 	  org-mode
 	  htmlize
 	  flymake-easy
