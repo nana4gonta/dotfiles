@@ -41,12 +41,7 @@
 	  ac-python
 	  ;; Javascript
 	  js2-mode
-	  flymake-node-jshint
-	  slime
-	  ac-slime
 	  js2-refactor
-	  setup-slime-js
-	  swank-js
 	  ;; TypeScript
 	  tss
 	  ;; JSON
