@@ -11,8 +11,6 @@
 
 (add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
 
-(org-remember-insinuate)
-
 ;; org-default-notes-fileのディレクトリ
 (setq org-directory "~/org/")
 
