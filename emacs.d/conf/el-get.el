@@ -31,6 +31,7 @@
 	  fold-dwim
 	  switch-window
 	  esh-myparser
+	  org-mode
 	  htmlize
 	  flymake-easy
 	  twittering-mode
