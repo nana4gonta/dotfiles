@@ -1,0 +1,4 @@
+(:name twig-mode
+       :type git
+       :url "https://github.com/moljac024/twig-mode"
+       :features twig-mode)
