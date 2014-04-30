@@ -1,8 +1,6 @@
 (:name ProofGeneral
-       :type cvs
-       :module "ProofGeneral"
-       :url ":pserver:anon@cvs.inf.ed.ac.uk:/disk/cvs/proofgen"
-       :build ("make clean" "make compile")
-       :build/darwin `("make clean" ,(concat "make compile EMACS=" el-get-emacs))
-       :load-path "./generic"
+       :type http-tar
+       :options ("xzf")
+       :url "http://proofgeneral.inf.ed.ac.uk/releases/ProofGeneral-4.2.tgz"
+       :load-path "./ProofGeneral/generic"
        :features proof-site)
