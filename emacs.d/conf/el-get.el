@@ -22,8 +22,8 @@
 	  yasnippet
 	  helm
 	  helm-descbinds
-	  helm-migemo
 	  migemo
+	  helm-migemo
 	  auto-complete
 	  foreign-regexp
 	  direx
