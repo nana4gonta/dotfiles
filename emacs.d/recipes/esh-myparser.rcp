@@ -1,0 +1,3 @@
+(:name esh-myparser
+       :type http
+       :url "http://www.emacswiki.org/emacs/download/esh-myparser.el")
