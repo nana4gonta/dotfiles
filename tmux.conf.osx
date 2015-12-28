@@ -1,0 +1,4 @@
+# pbcopy, pbpaste for OSX
+set-option -g default-command "reattach-to-user-namespace -l bash"
+bind-key C-c run "tmux save-buffer - | reattach-to-user-namespace pbcopy"
+bind-key C-v run "reattach-to-user-namespace pbpaste | tmux load-buffer - && tmux paste-buffer"
