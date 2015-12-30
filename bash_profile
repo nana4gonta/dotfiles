@@ -12,6 +12,11 @@ if [[ $(uname) =~ "MSYS" ]]; then
     
     # other binary
     export PATH=$HOME/bin:$PATH
+    
+    # Go
+    export GOPATH=$HOME
+    export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+
 
 fi
 
