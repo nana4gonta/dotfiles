@@ -1,6 +1,0 @@
-(:name ProofGeneral
-       :type http-tar
-       :options ("xzf")
-       :url "http://proofgeneral.inf.ed.ac.uk/releases/ProofGeneral-4.2.tgz"
-       :load-path "./ProofGeneral/generic"
-       :features proof-site)

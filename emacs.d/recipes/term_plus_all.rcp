@@ -1,5 +1,0 @@
-(:name term_plus_all
-       :type git
-       :url "https://github.com/tarao/term-plus-all"
-       :build (("make" "all"))
-       :features term+)

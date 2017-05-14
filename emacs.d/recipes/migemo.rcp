@@ -1,4 +1,0 @@
-(:name migemo
-       :type git
-       :url "https://github.com/emacs-jp/migemo"
-       :features migemo)

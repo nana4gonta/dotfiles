@@ -1,2 +1,0 @@
-(require 'ac-python)
-

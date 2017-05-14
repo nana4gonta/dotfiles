@@ -1,5 +1,0 @@
-(:name modeline-git-branch
-       :website "https://github.com/acple/modeline-git-branch"
-       :type github
-       :pkgname "acple/modeline-git-branch"
-       :features modeline-git-branch)

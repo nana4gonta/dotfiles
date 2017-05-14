@@ -1,5 +1,0 @@
-(:name helm-migemo
-       :type git
-       :url "https://github.com/emacs-helm/helm-migemo"
-       :depends (helm migemo)
-       :features helm-migemo)
