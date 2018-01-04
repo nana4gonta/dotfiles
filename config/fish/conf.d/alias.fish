@@ -1,4 +1,4 @@
-if test __is_osx
+if pf is-darwin
     alias ls="gls -CFG --color=auto"
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
